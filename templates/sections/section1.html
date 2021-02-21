@@ -1,0 +1,22 @@
+
+<section class="panel banner right">
+								<div class="content color0 span-3-75">
+
+{% with messages = get_flashed_messages() %}
+   {% if messages %}
+      {% for message in messages %}
+									<h3>{{ message }}</h3>
+      {% endfor %}
+   {% endif %}
+{% endwith %}
+									<h1 class="major">Hello, my name<br />
+									is Diego</h1>
+									<p>This is <strong>Diego</strong>, a professional python and web developer. I have strong knowledge in both python and web technologies, such as javascript, htm5, css, bootstrap and more!</p>
+									<ul class="actions">
+										<li><a href="#first" class="button primary color1 circle icon solid fa-angle-right">Next</a></li>
+									</ul>
+								</div>
+								<div class="image filtered span-1-75" data-position="25% 25%">
+									<img src="static/images/pic01.jpg" alt="" />
+								</div>
+							</section>
